@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Sent - Kitten Kingdom</title>
+    <link rel="icon" type="image/x-icon" href="favi_1.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="kingdom.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-brown py-3 fade-in">
+        <div class="container">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item"><a class="nav-link" href="outcats.html"> Our Cats | </a></li>
+                <li class="nav-item"><a class="nav-link" href="emergencyshelter.html">Emergency Stays </a></li>
+            </ul>
+            <a class="navbar-brand mx-auto" href="home.html"><img src="logo.png" alt="Kitten Kingdom Logo"
+                    class="logo"></a>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="oursuccess.html"> Our Stories | </a></li>
+                <li class="nav-item"><a class="nav-link" href="contactus.html">Contact Us </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container my-5 fade-in">
+        <div class="box-with-border p-4 text-center">
+            <h2>Thank You!</h2>
+            <p>Your message has been sent successfully.</p>
+            <p>We will contact you soon.</p>
+            <h3>Here is the information you entered:</h3>
+            <p><strong>Name:</strong> <span id="name"></span></p>
+            <p><strong>Email:</strong> <span id="email"></span></p>
+            <p><strong>Subject:</strong> <span id="subject"></span></p>
+            <p><strong>Message:</strong> <span id="message"></span></p>
+            <a href="contactus.html" class="btn-custom mt-3">Back to Contact Page</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container text-center fade-in">
+            <p>&copy; 2024 Kitten Kingdom. All Rights Reserved.</p>
+            <div>
+                <a href="#" class="mx-2">Instagram</a> |
+                <a href="#" class="mx-2">Facebook</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        
+        const params = new URLSearchParams(window.location.search);
+
+        
+        document.getElementById("name").textContent = params.get("name");
+        document.getElementById("email").textContent = params.get("email");
+        document.getElementById("subject").textContent = params.get("subject");
+        document.getElementById("message").textContent = params.get("message");
+    </script>
+</body>
+
+</html>
