@@ -10,9 +10,9 @@
 
 ---
 
-## 🏰 Project Overview
+## Project Overview
 
-**Kitten Kingdom** is a conceptual website for a fictional feline rescue and adoption service. The goal of this project was to design a warm, welcoming, and practical site that reflects the compassion and charm of its mission.
+**Kitten Kingdom** is a conceptual website for a fictional cat rescue and adoption service. The goal of this project was to design a warm, welcoming, and practical site that reflects the compassion and charm of its mission.
 
 ---
 
@@ -38,7 +38,7 @@ Displays user-submitted contact form data and confirms successful submission.
 
 ---
 
-## 🎯 Project Goals
+##  Project Goals
 
 - Build a fully responsive multi-page website using HTML, CSS, and Bootstrap.
 - Create an emotionally engaging aesthetic with soft tones and playful accents.
