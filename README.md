@@ -12,7 +12,7 @@
 
 ## Project Overview
 
-**Kitten Kingdom** is a personal front-end web project I built to explore layout design, branding, and storytelling through code. It's a fictional website for a cat rescue and adoption service, designed to feel cozy, inviting, and full of heart.
+[**Kitten Kingdom**](https://mgama14.github.io/CatAdoptionSite/) is a personal front-end web project I built to explore layout design, branding, and storytelling through code. It's a fictional website for a cat rescue and adoption service, designed to feel cozy, inviting, and full of heart.
 
 This project gave me a chance to combine creative direction with technical fundamentals like HTML and CSS. While some parts are fully functional, others are more conceptual and meant to show how a real site might behave.
 
