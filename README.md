@@ -23,19 +23,19 @@ This project gave me a chance to combine creative direction with technical funda
 Each page has its own role in the experience. Some forms are just visual designs with no submission functionality, while others are interactive.
 
 ### `index.html`  
-The homepage welcomes visitors with a short message, two buttons to conceptual forms (newsletter signup and adoption inquiry), and links to the rest of the site. These buttons are for show and do not actually submit anything (yet?).
+The homepage welcomes visitors with a short message, two buttons to conceptual forms (newsletter signup and adoption inquiry), and links to the rest of the site. These buttons are for show and do not actually submit anything (yet?). The "adopt a cat" button takes you to ourcats.html.
 
-### `outcats.html`  
+### `ourcats.html`  
 A cat gallery page featuring all available shelter cats. The layout was designed with filters in mind (age, breed, temperament), but these are static and not connected to any back-end (yet!).
 
 ### `emergencyshelter.html`  
-This page includes two forms: one for requesting emergency shelter and another for starting the adoption process. Like the homepage forms, these are conceptual and meant to demonstrate layout only.
+This page includes two forms: a basic one for starting the adoption process, and a drop-down for requesting emergency shelter for your cat. Like the homepage forms, these are conceptual and meant to demonstrate layout only.
 
 ### `oursuccess.html`  
 A celebration of fictional success stories for the cats of Kitten Kingdom. Each adopted cat is introduced with a photo and example text.
 
 ### `contactus.html`  
-This is the only page with a working form. Users can write a message to the shelter, which gets submitted and redirects to the confirmation page.
+This is the only page with a working form so far. Users can write a message to the shelter, which gets submitted and redirects to the confirmation page.
 
 ### `confirmation.html`  
 Displays the user’s submitted message and confirms successful delivery. This page only works when arriving from the contact form. 
